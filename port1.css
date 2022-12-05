@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(240, 240, 245);
+}
+
+html {
+    scroll-behavior: smooth;
+    margin-top: 223px;
+}
+
+.header {
+    height: 90vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7d1492;
+    height: 65px;
+    margin-top: -8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 16px;
+}
+
+.logo {
+    width: 85px;
+    height: 65px;
+}
+
+.brand {
+    display: flex;
+    margin-top: 118px;
+
+}
+
+.brandleft {
+    width: 60%;
+}
+
+.brandright {
+
+    width: 40%;
+}
+
+.monimage {
+    width: 310px;
+    height: 310px;
+
+    border-radius: 50%;
+    ;
+
+}
+
+.monimage img {
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 16px solid rgb(255, 255, 255);
+}
+
+.nomprenom {
+    font-size: 30px;
+    color: rgb(125, 20, 146);
+
+}
+
+.btn {
+    padding: left 15px;
+    padding-top: 32px;
+    box-shadow: 5px 5px rgb(112, 29, 112), inset 5px 5px rgb(138, 17, 138);
+    /* background: none; */
+    width: 30%;
+    height: 20%;
+    border: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.description {
+    margin-top: 20px;
+
+}
+
+.btn:hover {
+    box-shadow: 0px 0px rgb(112, 29, 112), inset 0px 0px rgb(138, 17, 138);
+}
+
+.descriptioon {
+    margin-right: 20px;
+}
+
+.skills {
+    /* display: flex; */
+
+    margin-top: 223px;
+}
+
+.cards {
+    display: flex;
+
+
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(105, 24, 126);
+    margin-left: 10px;
+    border-radius: 30px;
+    box-shadow: 5px 5px rgb(122, 120, 122);
+    cursor: pointer;
+}
+
+.card h3 {
+
+    text-align: center;
+    color: rgb(149, 149, 233);
+    margin-top: 20px;
+
+}
+
+.card:hover {
+    background-color: rgb(184, 149, 216);
+    color: white;
+}
+
+.card p {
+    color: white;
+    text-decoration: underline;
+
+}
+
+.card:hover h3 {
+    color: white;
+
+}
+
+.image2 {
+    width: 90px;
+    height: 90px;
+
+    padding-left: 90px;
+    padding-top: 30px;
+
+}
+
+.mycurriclm {
+    /* border: 1px solid black; */
+    /* display: flex; */
+    padding-top: 70px;
+}
+
+.image3 {
+    /* border: 1px solid rgb(194, 43, 43); */
+    background: white;
+    justify-content: space-between;
+    /* border-radius: 30px; */
+    margin-left: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.image4lycee {
+    width: 90px;
+    height: 90px;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-right: 50px;
+    /* border: 1px  solid rgb(235, 26, 60) ; */
+
+    cursor: pointer;
+    padding-bottom: 10px;
+    /* border-radius: 50%;  */
+    animation: pulse 1.3s infinite;
+}
+
+.image4prepa {
+    margin: 30px auto;
+    display: flex;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    /* border-radius: 50%;  */
+    animation: pulse 1.3s infinite;
+
+}
+
+.image4sup {
+    padding-left: 100px;
+    padding-top: 30px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    /* border-radius: 50%;  */
+    animation: pulse 1.3s infinite;
+}
+
+.image4lycee .image4prepa .image4sup {}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 4px rgb(149, 149, 233);
+        ;
+
+    }
+}
+
+.titre {
+    text-align: center;
+    color: rgb(149, 149, 233);
+    margin-top: 20px;
+
+}
+
+.mycontacts {
+    /* display: flex; */
+    /* border: 1px solid blue; */
+    padding-top: 20px;
+    /* padding-right: 6px;
+    padding-left: 6px; */
+    width: 100%;
+    height: 90vh;
+}
+
+.mycontacts .icones {
+    text-align: center;
+    /* border: 1px solid red; */
+    background-color: white;
+    /* padding-left: 30px; */
+    box-shadow: 3px 3px rgb(224, 175, 224);
+    height: 265px;
+    width: 265px;
+    justify-content: space-between;
+    border-radius: 50%;
+
+
+
+
+}
+
+.image5 {
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+}
+
+.formulaire form {
+    /* border: 1px solid black; */
+    padding: 1rem 2rem;
+
+    background: white;
+    flex: 2 2 40rem;
+
+
+}
+
+.formulaire .inputbox input,
+.formulaire .box,
+.formulaire textarea {
+    width: 100%;
+    font-size: 20px;
+
+}
+
+.formulaire .inputbox input :focus,
+.formulaire .box :focus,
+.formulaire textarea :focus {
+    border-color: blueviolet;
+}
+
+.formulaire input .btn2 {
+    box-shadow: 5px 5px rgb(112, 29, 112) inset 5px 5px rgb(138, 17, 138);
+    background: none;
+}
+
+.projets .mesprojets {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.projets .mesprojets .projet {
+    margin-right: 20px;
+    width: 400px;
+    box-shadow: 5px 5px 20px rgb(56, 119, 56);
+
+}
+
+.projets h1 {
+    text-decoration: underline;
+    font-size: 50px;
+    color: rgb(201, 140, 186);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 120px;
+}
+
+.projets .mesprojets .projet h2 {
+    color: rgb(149, 149, 233);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.projets {
+
+
+    width: 85%;
+    height: 90vh;
+    background-size: contain;
+    margin-left: 90px;
+
+}
+
+.projets .mesprojets .projet p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,38 @@
+.projets .mesprojets{
+    display: flex;
+    justify-content: space-around;
+}
+.projets  h1{
+    color: rgb(248, 7, 87);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif serif, sans-serif;
+}
+.projets .mesprojets .projet{
+    margin-right: 20px;
+    width: 400px;
+    box-shadow: 5px 5px 20px rgb(56, 119, 56);
+
+} 
+.projets h1 {
+    text-decoration: underline;
+    font-size: 50px;
+    color: rgb(141, 13, 77);
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.projets .mesprojets .projet h2{
+    color: rgb(8, 112, 16);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.projets{
+    
+   
+    width: 85%;
+    height: 90vh;
+    background-size:contain;
+    margin-left: 90px;
+   
+}
+.projets .mesprojets .projet p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
